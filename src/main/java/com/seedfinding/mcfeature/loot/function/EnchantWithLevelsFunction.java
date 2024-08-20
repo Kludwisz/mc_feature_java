@@ -132,7 +132,8 @@ public class EnchantWithLevelsFunction extends EnchantmentFunction {
 	public ItemStack enchantItem(LootContext random, ItemStack itemStack, int level, boolean isTreasure, boolean isDiscoverable) {
 		List<EnchantmentInstance> list = selectEnchantment(random, itemStack, level, isTreasure, isDiscoverable);
 		if (itemStack.getItem().equalsName(Items.BOOK)){
-			itemStack=new ItemStack(Items.ENCHANTED_BOOK);
+			// Ugly workaround for infinitely stacking enchants bug
+			itemStack = new ItemStack(new Item(Items.ENCHANTED_BOOK.getName()));
 		}
 		for(EnchantmentInstance enchantmentInstance : list) {
 			itemStack.getItem().addEnchantment(new Pair<>(enchantmentInstance.getEnchantment().getName(), enchantmentInstance.getLevel()));
