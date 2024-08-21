@@ -34,7 +34,7 @@ public class LootFishingTest {
 			.withOpenWater(true);
 		List<ItemStack> items = MCLootTables.FISHING.get().generate(lootContext);
 		assertEquals(items.size(), 1);
-		assertEquals(items.get(0), new ItemStack(Items.SALMON, 1));
+		assertEquals(items.get(0), new ItemStack(Items.RAW_SALMON, 1));
 	}
 
 
@@ -46,7 +46,7 @@ public class LootFishingTest {
 			.withOpenWater(true);
 		List<ItemStack> items = MCLootTables.FISHING.get().generate(lootContext);
 		assertEquals(items.size(), 1);
-		assertEquals(items.get(0), new ItemStack(Items.COD, 1));
+		assertEquals(items.get(0), new ItemStack(Items.RAW_COD, 1));
 	}
 
 	@Test
@@ -57,7 +57,7 @@ public class LootFishingTest {
 			.withOpenWater(true);
 		List<ItemStack> items = MCLootTables.FISHING.get().generate(lootContext);
 		assertEquals(items.size(), 1);
-		assertEquals(items.get(0), new ItemStack(Items.COD, 1));
+		assertEquals(items.get(0), new ItemStack(Items.RAW_COD, 1));
 	}
 
 	@Test
@@ -113,7 +113,7 @@ public class LootFishingTest {
 			.withOpenWater(false);
 		List<ItemStack> items = MCLootTables.FISHING.get().generate(lootContext);
 		assertEquals(items.size(), 1);
-		assertEquals(items.get(0), new ItemStack(Items.COD, 1));
+		assertEquals(items.get(0), new ItemStack(Items.RAW_COD, 1));
 	}
 
 	@Test
