@@ -47,8 +47,7 @@ public class Items {
 	public static final Item ARMOR_STAND = register(new Item("armor_stand"));
 	public static final Item ARMS_UP_POTTERY_SHERD = register(new Item("arms_up_pottery_sherd"));
 	public static final Item ARROW = register(new Item("arrow"));
-	//public static final Item ATTACHED_MELON_STEM = register(new Item("attached_melon_stem"));
-	//public static final Item ATTACHED_PUMPKIN_STEM = register(new Item("attached_pumpkin_stem"));
+
 	public static final Item AXOLOTL_SPAWN_EGG = register(new Item("axolotl_spawn_egg"));
 	public static final Item AZALEA = register(new Item("azalea"));
 	public static final Item AZALEA_LEAVES = register(new Item("azalea_leaves"));
@@ -73,8 +72,6 @@ public class Items {
 	public static final Item BAMBOO_SLAB = register(new Item("bamboo_slab"));
 	public static final Item BAMBOO_STAIRS = register(new Item("bamboo_stairs"));
 	public static final Item BAMBOO_TRAPDOOR = register(new Item("bamboo_trapdoor"));
-	//public static final Item BAMBOO_WALL_HANGING_SIGN = register(new Item("bamboo_wall_hanging_sign"));
-	//public static final Item BAMBOO_WALL_SIGN = register(new Item("bamboo_wall_sign"));
 	public static final Item BANNER_PATTERN_CREEPER_CHARGE = register(new Item("banner_pattern_creeper_charge"));
 	public static final Item BANNER_PATTERN_FLOWER_CHARGE = register(new Item("banner_pattern_flower_charge"));
 	public static final Item BANNER_PATTERN_GLOBE = register(new Item("banner_pattern_globe"));
@@ -96,7 +93,6 @@ public class Items {
 	public static final Item BEETROOTS = register(new Item("beetroots"));
 	public static final Item BELL = register(new Item("bell"));
 	public static final Item BIG_DRIPLEAF = register(new Item("big_dripleaf"));
-	//public static final Item BIG_DRIPLEAF_STEM = register(new Item("big_dripleaf_stem"));
 	public static final Item BIRCH_BOAT = register(new Item("birch_boat"));
 	public static final Item BIRCH_BOAT_WITH_CHEST = register(new Item("birch_boat_with_chest"));
 	public static final Item BIRCH_BUTTON = register(new Item("birch_button"));
@@ -113,8 +109,6 @@ public class Items {
 	public static final Item BIRCH_SLAB = register(new Item("birch_slab"));
 	public static final Item BIRCH_STAIRS = register(new Item("birch_stairs"));
 	public static final Item BIRCH_TRAPDOOR = register(new Item("birch_trapdoor"));
-	//public static final Item BIRCH_WALL_HANGING_SIGN = register(new Item("birch_wall_hanging_sign"));
-	//public static final Item BIRCH_WALL_SIGN = register(new Item("birch_wall_sign"));
 	public static final Item BIRCH_WOOD = register(new Item("birch_wood"));
 	public static final Item BLACK_BANNER = register(new Item("black_banner"));
 	public static final Item BLACK_BED = register(new Item("black_bed"));
@@ -167,7 +161,6 @@ public class Items {
 	public static final Item BRAIN_CORAL = register(new Item("brain_coral"));
 	public static final Item BRAIN_CORAL_BLOCK = register(new Item("brain_coral_block"));
 	public static final Item BRAIN_CORAL_FAN = register(new Item("brain_coral_fan"));
-	//public static final Item BRAIN_CORAL_WALL_FAN = register(new Item("brain_coral_wall_fan"));
 	public static final Item BREAD = register(new Item("bread"));
 	public static final Item BREWER_POTTERY_SHERD = register(new Item("brewer_pottery_sherd"));
 	public static final Item BREWING_STAND = register(new Item("brewing_stand"));
@@ -197,7 +190,6 @@ public class Items {
 	public static final Item BUBBLE_CORAL = register(new Item("bubble_coral"));
 	public static final Item BUBBLE_CORAL_BLOCK = register(new Item("bubble_coral_block"));
 	public static final Item BUBBLE_CORAL_FAN = register(new Item("bubble_coral_fan"));
-	//public static final Item BUBBLE_CORAL_WALL_FAN = register(new Item("bubble_coral_wall_fan"));
 	public static final Item BUCKET = register(new Item("bucket"));
 	public static final Item BUCKET_OF_AXOLOTL = register(new Item("bucket_of_axolotl"));
 	public static final Item BUCKET_OF_COD = register(new Item("bucket_of_cod"));
@@ -226,7 +218,6 @@ public class Items {
 	public static final Item CAVE_AIR = register(new Item("cave_air"));
 	public static final Item CAVE_SPIDER_SPAWN_EGG = register(new Item("cave_spider_spawn_egg"));
 	public static final Item CAVE_VINES = register(new Item("cave_vines"));
-	public static final Item CAVE_VINES_PLANT = register(new Item("cave_vines_plant"));
 	public static final Item CHAIN = register(new Item("chain"));
 	public static final Item CHAIN_COMMAND_BLOCK = register(new Item("chain_command_block"));
 	public static final Item CHAINMAIL_BOOTS = register(new Item("chainmail_boots"));
@@ -250,8 +241,6 @@ public class Items {
 	public static final Item CHERRY_SLAB = register(new Item("cherry_slab"));
 	public static final Item CHERRY_STAIRS = register(new Item("cherry_stairs"));
 	public static final Item CHERRY_TRAPDOOR = register(new Item("cherry_trapdoor"));
-	//public static final Item CHERRY_WALL_HANGING_SIGN = register(new Item("cherry_wall_hanging_sign"));
-	//public static final Item CHERRY_WALL_SIGN = register(new Item("cherry_wall_sign"));
 	public static final Item CHERRY_WOOD = register(new Item("cherry_wood"));
 	public static final Item CHEST = register(new Item("chest"));
 	public static final Item CHICKEN_SPAWN_EGG = register(new Item("chicken_spawn_egg"));
@@ -269,7 +258,6 @@ public class Items {
 	public static final Item CHISELED_TUFF_BRICKS = register(new Item("chiseled_tuff_bricks"));
 	public static final Item CHORUS_FLOWER = register(new Item("chorus_flower"));
 	public static final Item CHORUS_FRUIT = register(new Item("chorus_fruit"));
-	public static final Item CHORUS_PLANT = register(new Item("chorus_plant"));
 	public static final Item CLAY = register(new Item("clay"));
 	public static final Item CLAY_BALL = register(new Item("clay_ball"));
 	public static final Item CLOCK = register(new Item("clock"));
@@ -319,7 +307,6 @@ public class Items {
 	public static final Item CRAFTING_TABLE = register(new Item("crafting_table"));
 	public static final Item CREEPER_HEAD = register(new Item("creeper_head"));
 	public static final Item CREEPER_SPAWN_EGG = register(new Item("creeper_spawn_egg"));
-	//public static final Item CREEPER_WALL_HEAD = register(new Item("creeper_wall_head"));
 	public static final Item CRIMSON_BUTTON = register(new Item("crimson_button"));
 	public static final Item CRIMSON_DOOR = register(new Item("crimson_door"));
 	public static final Item CRIMSON_FENCE = register(new Item("crimson_fence"));
@@ -336,8 +323,6 @@ public class Items {
 	public static final Item CRIMSON_STAIRS = register(new Item("crimson_stairs"));
 	public static final Item CRIMSON_STEM = register(new Item("crimson_stem"));
 	public static final Item CRIMSON_TRAPDOOR = register(new Item("crimson_trapdoor"));
-	//public static final Item CRIMSON_WALL_HANGING_SIGN = register(new Item("crimson_wall_hanging_sign"));
-	//public static final Item CRIMSON_WALL_SIGN = register(new Item("crimson_wall_sign"));
 	public static final Item CROSSBOW = register(new Item("crossbow"));
 	public static final Item CRYING_OBSIDIAN = register(new Item("crying_obsidian"));
 	public static final Item CUT_COPPER = register(new Item("cut_copper"));
@@ -380,8 +365,6 @@ public class Items {
 	public static final Item DARK_OAK_SLAB = register(new Item("dark_oak_slab"));
 	public static final Item DARK_OAK_STAIRS = register(new Item("dark_oak_stairs"));
 	public static final Item DARK_OAK_TRAPDOOR = register(new Item("dark_oak_trapdoor"));
-	//public static final Item DARK_OAK_WALL_HANGING_SIGN = register(new Item("dark_oak_wall_hanging_sign"));
-	//public static final Item DARK_OAK_WALL_SIGN = register(new Item("dark_oak_wall_sign"));
 	public static final Item DARK_OAK_WOOD = register(new Item("dark_oak_wood"));
 	public static final Item DARK_PRISMARINE = register(new Item("dark_prismarine"));
 	public static final Item DARK_PRISMARINE_SLAB = register(new Item("dark_prismarine_slab"));
@@ -390,24 +373,19 @@ public class Items {
 	public static final Item DEAD_BRAIN_CORAL = register(new Item("dead_brain_coral"));
 	public static final Item DEAD_BRAIN_CORAL_BLOCK = register(new Item("dead_brain_coral_block"));
 	public static final Item DEAD_BRAIN_CORAL_FAN = register(new Item("dead_brain_coral_fan"));
-	//public static final Item DEAD_BRAIN_CORAL_WALL_FAN = register(new Item("dead_brain_coral_wall_fan"));
 	public static final Item DEAD_BUBBLE_CORAL = register(new Item("dead_bubble_coral"));
 	public static final Item DEAD_BUBBLE_CORAL_BLOCK = register(new Item("dead_bubble_coral_block"));
 	public static final Item DEAD_BUBBLE_CORAL_FAN = register(new Item("dead_bubble_coral_fan"));
-	//public static final Item DEAD_BUBBLE_CORAL_WALL_FAN = register(new Item("dead_bubble_coral_wall_fan"));
 	public static final Item DEAD_BUSH = register(new Item("dead_bush"));
 	public static final Item DEAD_FIRE_CORAL = register(new Item("dead_fire_coral"));
 	public static final Item DEAD_FIRE_CORAL_BLOCK = register(new Item("dead_fire_coral_block"));
 	public static final Item DEAD_FIRE_CORAL_FAN = register(new Item("dead_fire_coral_fan"));
-	//public static final Item DEAD_FIRE_CORAL_WALL_FAN = register(new Item("dead_fire_coral_wall_fan"));
 	public static final Item DEAD_HORN_CORAL = register(new Item("dead_horn_coral"));
 	public static final Item DEAD_HORN_CORAL_BLOCK = register(new Item("dead_horn_coral_block"));
 	public static final Item DEAD_HORN_CORAL_FAN = register(new Item("dead_horn_coral_fan"));
-	//public static final Item DEAD_HORN_CORAL_WALL_FAN = register(new Item("dead_horn_coral_wall_fan"));
 	public static final Item DEAD_TUBE_CORAL = register(new Item("dead_tube_coral"));
 	public static final Item DEAD_TUBE_CORAL_BLOCK = register(new Item("dead_tube_coral_block"));
 	public static final Item DEAD_TUBE_CORAL_FAN = register(new Item("dead_tube_coral_fan"));
-	//public static final Item DEAD_TUBE_CORAL_WALL_FAN = register(new Item("dead_tube_coral_wall_fan"));
 	public static final Item DEBUG_STICK = register(new Item("debug_stick"));
 	public static final Item DECORATED_POT = register(new Item("decorated_pot"));
 	public static final Item DEEPSLATE = register(new Item("deepslate"));
@@ -454,7 +432,6 @@ public class Items {
 	public static final Item DRAGONS_BREATH = register(new Item("dragons_breath"));
 	public static final Item DRAGON_EGG = register(new Item("dragon_egg"));
 	public static final Item DRAGON_HEAD = register(new Item("dragon_head"));
-	//public static final Item DRAGON_WALL_HEAD = register(new Item("dragon_wall_head"));
 	public static final Item DRIED_KELP = register(new Item("dried_kelp"));
 	public static final Item DRIED_KELP_BLOCK = register(new Item("dried_kelp_block"));
 	public static final Item DRIPSTONE_BLOCK = register(new Item("dripstone_block"));
@@ -507,7 +484,6 @@ public class Items {
 	public static final Item FIRE_CORAL = register(new Item("fire_coral"));
 	public static final Item FIRE_CORAL_BLOCK = register(new Item("fire_coral_block"));
 	public static final Item FIRE_CORAL_FAN = register(new Item("fire_coral_fan"));
-	//public static final Item FIRE_CORAL_WALL_FAN = register(new Item("fire_coral_wall_fan"));
 	public static final Item FIREWORK_ROCKET = register(new Item("firework_rocket"));
 	public static final Item FIREWORK_STAR = register(new Item("firework_star"));
 	public static final Item FISHING_ROD = register(new Item("fishing_rod"));
@@ -609,7 +585,6 @@ public class Items {
 	public static final Item HORN_CORAL = register(new Item("horn_coral"));
 	public static final Item HORN_CORAL_BLOCK = register(new Item("horn_coral_block"));
 	public static final Item HORN_CORAL_FAN = register(new Item("horn_coral_fan"));
-	//public static final Item HORN_CORAL_WALL_FAN = register(new Item("horn_coral_wall_fan"));
 	public static final Item HORSE_SPAWN_EGG = register(new Item("horse_spawn_egg"));
 	public static final Item HOWL_POTTERY_SHERD = register(new Item("howl_pottery_sherd"));
 	public static final Item HUSK_SPAWN_EGG = register(new Item("husk_spawn_egg"));
@@ -660,11 +635,8 @@ public class Items {
 	public static final Item JUNGLE_SLAB = register(new Item("jungle_slab"));
 	public static final Item JUNGLE_STAIRS = register(new Item("jungle_stairs"));
 	public static final Item JUNGLE_TRAPDOOR = register(new Item("jungle_trapdoor"));
-	//public static final Item JUNGLE_WALL_HANGING_SIGN = register(new Item("jungle_wall_hanging_sign"));
-	//public static final Item JUNGLE_WALL_SIGN = register(new Item("jungle_wall_sign"));
 	public static final Item JUNGLE_WOOD = register(new Item("jungle_wood"));
 	public static final Item KELP = register(new Item("kelp"));
-	public static final Item KELP_PLANT = register(new Item("kelp_plant"));
 	public static final Item KNOWLEDGE_BOOK = register(new Item("knowledge_book"));
 	public static final Item LADDER = register(new Item("ladder"));
 	public static final Item LANTERN = register(new Item("lantern"));
@@ -771,8 +743,6 @@ public class Items {
 	public static final Item MANGROVE_SLAB = register(new Item("mangrove_slab"));
 	public static final Item MANGROVE_STAIRS = register(new Item("mangrove_stairs"));
 	public static final Item MANGROVE_TRAPDOOR = register(new Item("mangrove_trapdoor"));
-	//public static final Item MANGROVE_WALL_HANGING_SIGN = register(new Item("mangrove_wall_hanging_sign"));
-	//public static final Item MANGROVE_WALL_SIGN = register(new Item("mangrove_wall_sign"));
 	public static final Item MANGROVE_WOOD = register(new Item("mangrove_wood"));
 	public static final Item MAP = register(new Item("map"));
 	public static final Item MEDIUM_AMETHYST_BUD = register(new Item("medium_amethyst_bud"));
@@ -873,8 +843,6 @@ public class Items {
 	public static final Item OAK_SLAB = register(new Item("oak_slab"));
 	public static final Item OAK_STAIRS = register(new Item("oak_stairs"));
 	public static final Item OAK_TRAPDOOR = register(new Item("oak_trapdoor"));
-	//public static final Item OAK_WALL_HANGING_SIGN = register(new Item("oak_wall_hanging_sign"));
-	//public static final Item OAK_WALL_SIGN = register(new Item("oak_wall_sign"));
 	public static final Item OAK_WOOD = register(new Item("oak_wood"));
 	public static final Item OBSERVER = register(new Item("observer"));
 	public static final Item OBSIDIAN = register(new Item("obsidian"));
@@ -921,7 +889,6 @@ public class Items {
 	public static final Item PIGLIN_BRUTE_SPAWN_EGG = register(new Item("piglin_brute_spawn_egg"));
 	public static final Item PIGLIN_HEAD = register(new Item("piglin_head"));
 	public static final Item PIGLIN_SPAWN_EGG = register(new Item("piglin_spawn_egg"));
-	//public static final Item PIGLIN_WALL_HEAD = register(new Item("piglin_wall_head"));
 	public static final Item PILLAGER_SPAWN_EGG = register(new Item("pillager_spawn_egg"));
 	public static final Item PINK_BANNER = register(new Item("pink_banner"));
 	public static final Item PINK_BED = register(new Item("pink_bed"));
@@ -940,12 +907,9 @@ public class Items {
 	public static final Item PINK_TULIP = register(new Item("pink_tulip"));
 	public static final Item PINK_WOOL = register(new Item("pink_wool"));
 	public static final Item PISTON = register(new Item("piston"));
-	public static final Item PISTON_HEAD = register(new Item("piston_head"));
-	public static final Item PITCHER_CROP = register(new Item("pitcher_crop"));
 	public static final Item PITCHER_PLANT = register(new Item("pitcher_plant"));
 	public static final Item PITCHER_POD = register(new Item("pitcher_pod"));
 	public static final Item PLAYER_HEAD = register(new Item("player_head"));
-	//public static final Item PLAYER_WALL_HEAD = register(new Item("player_wall_head"));
 	public static final Item PLENTY_POTTERY_SHERD = register(new Item("plenty_pottery_sherd"));
 	public static final Item PODZOL = register(new Item("podzol"));
 	public static final Item POINTED_DRIPSTONE = register(new Item("pointed_dripstone"));
@@ -1112,7 +1076,6 @@ public class Items {
 	public static final Item REDSTONE_LAMP = register(new Item("redstone_lamp"));
 	public static final Item REDSTONE_ORE = register(new Item("redstone_ore"));
 	public static final Item REDSTONE_TORCH = register(new Item("redstone_torch"));
-	//public static final Item REDSTONE_WALL_TORCH = register(new Item("redstone_wall_torch"));
 	public static final Item REDSTONE_WIRE = register(new Item("redstone_wire"));
 	public static final Item REINFORCED_DEEPSLATE = register(new Item("reinforced_deepslate"));
 	public static final Item REPEATER = register(new Item("repeater"));
@@ -1153,7 +1116,6 @@ public class Items {
 	public static final Item SKELETON_HORSE_SPAWN_EGG = register(new Item("skeleton_horse_spawn_egg"));
 	public static final Item SKELETON_SKULL = register(new Item("skeleton_skull"));
 	public static final Item SKELETON_SPAWN_EGG = register(new Item("skeleton_spawn_egg"));
-	//public static final Item SKELETON_WALL_SKULL = register(new Item("skeleton_wall_skull"));
 	public static final Item SKULL_POTTERY_SHERD = register(new Item("skull_pottery_sherd"));
 	public static final Item SLIME_BLOCK = register(new Item("slime_block"));
 	public static final Item SLIME_SPAWN_EGG = register(new Item("slime_spawn_egg"));
@@ -1204,7 +1166,6 @@ public class Items {
 	public static final Item SOUL_SAND = register(new Item("soul_sand"));
 	public static final Item SOUL_SOIL = register(new Item("soul_soil"));
 	public static final Item SOUL_TORCH = register(new Item("soul_torch"));
-	//public static final Item SOUL_WALL_TORCH = register(new Item("soul_wall_torch"));
 	public static final Item SPAWNER = register(new Item("spawner"));
 	public static final Item SPECTRAL_ARROW = register(new Item("spectral_arrow"));
 	public static final Item SPIDER_EYE = register(new Item("spider_eye"));
@@ -1228,8 +1189,6 @@ public class Items {
 	public static final Item SPRUCE_SLAB = register(new Item("spruce_slab"));
 	public static final Item SPRUCE_STAIRS = register(new Item("spruce_stairs"));
 	public static final Item SPRUCE_TRAPDOOR = register(new Item("spruce_trapdoor"));
-	//public static final Item SPRUCE_WALL_HANGING_SIGN = register(new Item("spruce_wall_hanging_sign"));
-	//public static final Item SPRUCE_WALL_SIGN = register(new Item("spruce_wall_sign"));
 	public static final Item SPRUCE_WOOD = register(new Item("spruce_wood"));
 	public static final Item SPYGLASS = register(new Item("spyglass"));
 	public static final Item SQUID_SPAWN_EGG = register(new Item("squid_spawn_egg"));
@@ -1287,7 +1246,6 @@ public class Items {
 	public static final Item SWEET_BERRY_BUSH = register(new Item("sweet_berry_bush"));
 	public static final Item TADPOLE_SPAWN_EGG = register(new Item("tadpole_spawn_egg"));
 	public static final Item TALL_GRASS = register(new Item("tall_grass"));
-	//public static final Item TALL_SEAGRASS = register(new Item("tall_seagrass"));
 	public static final Item TARGET = register(new Item("target"));
 	public static final Item TERRACOTTA = register(new Item("terracotta"));
 	public static final Item TINTED_GLASS = register(new Item("tinted_glass"));
@@ -1295,7 +1253,6 @@ public class Items {
 	public static final Item TNT = register(new Item("tnt"));
 	public static final Item TORCH = register(new Item("torch"));
 	public static final Item TORCHFLOWER = register(new Item("torchflower"));
-	public static final Item TORCHFLOWER_CROP = register(new Item("torchflower_crop"));
 	public static final Item TORCHFLOWER_SEEDS = register(new Item("torchflower_seeds"));
 	public static final Item TOTEM_OF_UNDYING = register(new Item("totem_of_undying"));
 	public static final Item TRADER_LLAMA_SPAWN_EGG = register(new Item("trader_llama_spawn_egg"));
@@ -1309,7 +1266,6 @@ public class Items {
 	public static final Item TUBE_CORAL = register(new Item("tube_coral"));
 	public static final Item TUBE_CORAL_BLOCK = register(new Item("tube_coral_block"));
 	public static final Item TUBE_CORAL_FAN = register(new Item("tube_coral_fan"));
-	//public static final Item TUBE_CORAL_WALL_FAN = register(new Item("tube_coral_wall_fan"));
 	public static final Item TUFF = register(new Item("tuff"));
 	public static final Item TUFF_BRICK_SLAB = register(new Item("tuff_brick_slab"));
 	public static final Item TUFF_BRICK_STAIRS = register(new Item("tuff_brick_stairs"));
@@ -1322,7 +1278,6 @@ public class Items {
 	public static final Item TURTLE_SHELL = register(new Item("turtle_shell"));
 	public static final Item TURTLE_SPAWN_EGG = register(new Item("turtle_spawn_egg"));
 	public static final Item TWISTING_VINES = register(new Item("twisting_vines"));
-	public static final Item TWISTING_VINES_PLANT = register(new Item("twisting_vines_plant"));
 	public static final Item VAULT = register(new Item("vault"));
 	public static final Item VERDANT_FROGLIGHT = register(new Item("verdant_froglight"));
 	public static final Item VEX_SPAWN_EGG = register(new Item("vex_spawn_egg"));
@@ -1350,8 +1305,6 @@ public class Items {
 	public static final Item WARPED_STAIRS = register(new Item("warped_stairs"));
 	public static final Item WARPED_STEM = register(new Item("warped_stem"));
 	public static final Item WARPED_TRAPDOOR = register(new Item("warped_trapdoor"));
-	//public static final Item WARPED_WALL_HANGING_SIGN = register(new Item("warped_wall_hanging_sign"));
-	//public static final Item WARPED_WALL_SIGN = register(new Item("warped_wall_sign"));
 	public static final Item WARPED_WART_BLOCK = register(new Item("warped_wart_block"));
 	public static final Item WATER = register(new Item("water"));
 	public static final Item WATER_BUCKET = register(new Item("water_bucket"));
@@ -1402,7 +1355,6 @@ public class Items {
 	public static final Item WEATHERED_CUT_COPPER_SLAB = register(new Item("weathered_cut_copper_slab"));
 	public static final Item WEATHERED_CUT_COPPER_STAIRS = register(new Item("weathered_cut_copper_stairs"));
 	public static final Item WEEPING_VINES = register(new Item("weeping_vines"));
-	public static final Item WEEPING_VINES_PLANT = register(new Item("weeping_vines_plant"));
 	public static final Item WET_SPONGE = register(new Item("wet_sponge"));
 	public static final Item WHEAT = register(new Item("wheat"));
 	public static final Item WHEAT_SEEDS = register(new Item("wheat_seeds"));
@@ -1425,7 +1377,6 @@ public class Items {
 	public static final Item WITHER_ROSE = register(new Item("wither_rose"));
 	public static final Item WITHER_SKELETON_SKULL = register(new Item("wither_skeleton_skull"));
 	public static final Item WITHER_SKELETON_SPAWN_EGG = register(new Item("wither_skeleton_spawn_egg"));
-	//public static final Item WITHER_SKELETON_WALL_SKULL = register(new Item("wither_skeleton_wall_skull"));
 	public static final Item WITHER_SPAWN_EGG = register(new Item("wither_spawn_egg"));
 	public static final Item WOLF_SPAWN_EGG = register(new Item("wolf_spawn_egg"));
 	public static final Item WOODEN_AXE = register(new Item("wooden_axe"));
@@ -1453,7 +1404,6 @@ public class Items {
 	public static final Item ZOMBIE_HORSE_SPAWN_EGG = register(new Item("zombie_horse_spawn_egg"));
 	public static final Item ZOMBIE_SPAWN_EGG = register(new Item("zombie_spawn_egg"));
 	public static final Item ZOMBIE_VILLAGER_SPAWN_EGG = register(new Item("zombie_villager_spawn_egg"));
-	//public static final Item ZOMBIE_WALL_HEAD = register(new Item("zombie_wall_head"));
 	public static final Item ZOMBIFIED_PIGLIN_SPAWN_EGG = register(new Item("zombified_piglin_spawn_egg"));
 
 	public static LinkedHashMap<Integer, Supplier<Item>> getItems() {
