@@ -47,7 +47,6 @@ public class Items {
 	public static final Item ARMOR_STAND = register(new Item("armor_stand"));
 	public static final Item ARMS_UP_POTTERY_SHERD = register(new Item("arms_up_pottery_sherd"));
 	public static final Item ARROW = register(new Item("arrow"));
-
 	public static final Item AXOLOTL_SPAWN_EGG = register(new Item("axolotl_spawn_egg"));
 	public static final Item AZALEA = register(new Item("azalea"));
 	public static final Item AZALEA_LEAVES = register(new Item("azalea_leaves"));
