@@ -650,10 +650,10 @@ public class Items {
 	public static final Item LEAD = register(new Item("lead"));
 	public static final Item LEATHER = register(new Item("leather"));
 	public static final Item LEATHER_BOOTS = register(new Item("leather_boots"));
-	public static final Item LEATHER_CAP = register(new Item("leather_cap"));
+	public static final Item LEATHER_HELMET = register(new Item("leather_helmet"));
 	public static final Item LEATHER_HORSE_ARMOR = register(new Item("leather_horse_armor"));
-	public static final Item LEATHER_PANTS = register(new Item("leather_pants"));
-	public static final Item LEATHER_TUNIC = register(new Item("leather_tunic"));
+	public static final Item LEATHER_LEGGINGS = register(new Item("leather_leggings"));
+	public static final Item LEATHER_CHESTPLATE = register(new Item("leather_chestplate"));
 	public static final Item LECTERN = register(new Item("lectern"));
 	public static final Item LEVER = register(new Item("lever"));
 	public static final Item LIGHT = register(new Item("light"));

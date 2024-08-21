@@ -25,6 +25,10 @@ public class MCLootTables {
 
 	public static final Supplier<LootTable> NULL = LootTable::new;
 
+	// TODO Add the following loot tables:
+	// ancient city (std, ice box)
+	// trial chambers (a lot of stuff)
+
 	public static final Supplier<LootTable> ABANDONED_MINESHAFT_CHEST = () -> new LootTable(
 		new LootPool(new ConstantRoll(1),
 			new ItemEntry(Items.GOLDEN_APPLE, 20),
@@ -36,7 +40,7 @@ public class MCLootTables {
 		new LootPool(new UniformRoll(2.0F, 4.0F),
 			new ItemEntry(Items.IRON_INGOT, 10).apply(version -> SetCountFunction.uniform(1.0F, 5.0F)),
 			new ItemEntry(Items.GOLD_INGOT, 5).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
-			new ItemEntry(Items.REDSTONE, 5).apply(version -> SetCountFunction.uniform(4.0F, 9.0F)),
+			new ItemEntry(Items.REDSTONE_DUST, 5).apply(version -> SetCountFunction.uniform(4.0F, 9.0F)),
 			new ItemEntry(Items.LAPIS_LAZULI, 5).apply(version -> SetCountFunction.uniform(4.0F, 9.0F)),
 			new ItemEntry(Items.DIAMOND, 3).apply(version -> SetCountFunction.uniform(1.0F, 2.0F)),
 			new ItemEntry(Items.COAL, 10).apply(version -> SetCountFunction.uniform(3.0F, 8.0F)),
@@ -96,7 +100,7 @@ public class MCLootTables {
 			new ItemEntry(Items.LEATHER).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
 			new ItemEntry(Items.ARROW).apply(version -> SetCountFunction.uniform(5.0F, 17.0F)),
 			new ItemEntry(Items.STRING).apply(version -> SetCountFunction.uniform(3.0F, 8.0F)),
-			new ItemEntry(Items.PORKCHOP).apply(version -> SetCountFunction.uniform(2.0F, 5.0F)),
+			new ItemEntry(Items.RAW_PORKCHOP).apply(version -> SetCountFunction.uniform(2.0F, 5.0F)),
 			new ItemEntry(Items.COOKED_PORKCHOP).apply(version -> SetCountFunction.uniform(2.0F, 5.0F)),
 			new ItemEntry(Items.CRIMSON_FUNGUS).apply(version -> SetCountFunction.uniform(2.0F, 7.0F)),
 			new ItemEntry(Items.CRIMSON_ROOTS).apply(version -> SetCountFunction.uniform(2.0F, 7.0F)))
@@ -108,7 +112,7 @@ public class MCLootTables {
 			new ItemEntry(Items.ANCIENT_DEBRIS, 2).apply(version -> SetCountFunction.constant(1)),
 			new ItemEntry(Items.NETHERITE_SCRAP, 2).apply(version -> SetCountFunction.constant(1)),
 			new ItemEntry(Items.SPECTRAL_ARROW, 16).apply(version -> SetCountFunction.uniform(2.0F, 15.0F)),
-			new ItemEntry(Items.PIGLIN_BANNER_PATTERN, 5).apply(version -> SetCountFunction.constant(1)),
+			new ItemEntry(Items.BANNER_PATTERN_SNOUT, 5).apply(version -> SetCountFunction.constant(1)),
 			new ItemEntry(Items.MUSIC_DISC_PIGSTEP, 3).apply(version -> SetCountFunction.constant(1)),
 			new ItemEntry(Items.ENCHANTED_BOOK, 10).apply(version -> new EnchantRandomlyFunction(Items.ENCHANTED_BOOK, true, false).apply(version)),
 			new EmptyEntry(50)),
@@ -160,7 +164,7 @@ public class MCLootTables {
 			new ItemEntry(Items.GOLD_INGOT).apply(version -> SetCountFunction.uniform(3.0F, 9.0F)),
 			new ItemEntry(Items.IRON_INGOT).apply(version -> SetCountFunction.uniform(3.0F, 9.0F)),
 			new ItemEntry(Items.CRYING_OBSIDIAN).apply(version -> SetCountFunction.uniform(1.0F, 5.0F)),
-			new ItemEntry(Items.QUARTZ).apply(version -> SetCountFunction.uniform(8.0F, 23.0F)),
+			new ItemEntry(Items.NETHER_QUARTZ).apply(version -> SetCountFunction.uniform(8.0F, 23.0F)),
 			new ItemEntry(Items.GILDED_BLACKSTONE).apply(version -> SetCountFunction.uniform(1.0F, 5.0F)),
 			new ItemEntry(Items.MAGMA_CREAM).apply(version -> SetCountFunction.uniform(2.0F, 8.0F)),
 			new ItemEntry(Items.IRON_NUGGET).apply(version -> SetCountFunction.uniform(8.0F, 16.0F)))
@@ -300,7 +304,7 @@ public class MCLootTables {
 		new LootPool(new UniformRoll(1.0F, 3.0F),
 			new ItemEntry(Items.DARK_OAK_LOG).apply(version -> SetCountFunction.uniform(2.0F, 3.0F))),
 		new LootPool(new UniformRoll(2.0F, 3.0F),
-			new ItemEntry(Items.EXPERIENCE_BOTTLE, 7),
+			new ItemEntry(Items.BOTTLE_O_ENCHANTING, 7),
 			new ItemEntry(Items.STRING, 4).apply(version -> SetCountFunction.uniform(1.0F, 6.0F)),
 			new ItemEntry(Items.ARROW, 4).apply(version -> SetCountFunction.uniform(2.0F, 7.0F)),
 			new ItemEntry(Items.TRIPWIRE_HOOK, 3).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
@@ -339,7 +343,7 @@ public class MCLootTables {
 
 	public static final Supplier<LootTable> SHIPWRECK_MAP_CHEST = () -> new LootTable(
 		new LootPool(new ConstantRoll(1),
-			new ItemEntry(Items.FILLED_MAP).introducedVersion(MCVersion.v1_16), new ItemEntry(Items.MAP).introducedVersion(MCVersion.v1_14).deprecatedVersion(MCVersion.v1_16)),
+			new ItemEntry(Items.MAP).introducedVersion(MCVersion.v1_16), new ItemEntry(Items.EMPTY_MAP).introducedVersion(MCVersion.v1_14).deprecatedVersion(MCVersion.v1_16)),
 		new LootPool(new ConstantRoll(3),
 			new ItemEntry(Items.COMPASS),
 			new ItemEntry(Items.MAP),
@@ -387,7 +391,7 @@ public class MCLootTables {
 			new ItemEntry(Items.GOLD_INGOT, 10).apply(version -> SetCountFunction.uniform(1.0F, 5.0F)),
 			new ItemEntry(Items.EMERALD, 40).apply(version -> SetCountFunction.uniform(1.0F, 5.0F)),
 			new ItemEntry(Items.DIAMOND, 5),
-			new ItemEntry(Items.EXPERIENCE_BOTTLE, 5)),
+			new ItemEntry(Items.BOTTLE_O_ENCHANTING, 5)),
 		new LootPool(new UniformRoll(2.0F, 5.0F),
 			new ItemEntry(Items.IRON_NUGGET, 50).apply(version -> SetCountFunction.uniform(1.0F, 10.0F)),
 			new ItemEntry(Items.GOLD_NUGGET, 10).apply(version -> SetCountFunction.uniform(1.0F, 10.0F)),
@@ -412,7 +416,7 @@ public class MCLootTables {
 			new ItemEntry(Items.BREAD, 20),
 			new ItemEntry(Items.WHEAT, 20).apply(version -> SetCountFunction.uniform(1.0F, 4.0F)),
 			new ItemEntry(Items.BUCKET, 10),
-			new ItemEntry(Items.REDSTONE, 15).apply(version -> SetCountFunction.uniform(1.0F, 4.0F)),
+			new ItemEntry(Items.REDSTONE_DUST, 15).apply(version -> SetCountFunction.uniform(1.0F, 4.0F)),
 			new ItemEntry(Items.COAL, 15).apply(version -> SetCountFunction.uniform(1.0F, 4.0F)),
 			new ItemEntry(Items.MELON_SEEDS, 10).apply(version -> SetCountFunction.uniform(2.0F, 4.0F)),
 			new ItemEntry(Items.PUMPKIN_SEEDS, 10).apply(version -> SetCountFunction.uniform(2.0F, 4.0F)),
@@ -434,7 +438,7 @@ public class MCLootTables {
 		new LootPool(new ConstantRoll(3),
 			new ItemEntry(Items.APPLE, 5).apply(version -> SetCountFunction.uniform(1.0F, 2.0F)),
 			new ItemEntry(Items.BREAD, 3).apply(version -> SetCountFunction.uniform(1.0F, 2.0F)),
-			new ItemEntry(Items.SALMON, 3).apply(version -> SetCountFunction.uniform(1.0F, 2.0F))),
+			new ItemEntry(Items.RAW_SALMON, 3).apply(version -> SetCountFunction.uniform(1.0F, 2.0F))),
 		new LootPool(new ConstantRoll(4),
 			new ItemEntry(Items.STICK, 10).apply(version -> SetCountFunction.uniform(1.0F, 12.0F)),
 			new ItemEntry(Items.OAK_PLANKS, 10).apply(version -> SetCountFunction.uniform(1.0F, 12.0F)),
@@ -452,7 +456,7 @@ public class MCLootTables {
 			new ItemEntry(Items.DIAMOND, 3).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
 			new ItemEntry(Items.IRON_INGOT, 10).apply(version -> SetCountFunction.uniform(1.0F, 5.0F)),
 			new ItemEntry(Items.GOLD_INGOT, 5).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
-			new ItemEntry(Items.REDSTONE, 5).apply(version -> SetCountFunction.uniform(4.0F, 9.0F)),
+			new ItemEntry(Items.REDSTONE_DUST, 5).apply(version -> SetCountFunction.uniform(4.0F, 9.0F)),
 			new ItemEntry(Items.BREAD, 15).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
 			new ItemEntry(Items.APPLE, 15).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
 			new ItemEntry(Items.IRON_PICKAXE, 5),
@@ -473,7 +477,7 @@ public class MCLootTables {
 		new LootPool(new UniformRoll(1.0F, 4.0F),
 			new ItemEntry(Items.IRON_INGOT, 10).apply(version -> SetCountFunction.uniform(1.0F, 5.0F)),
 			new ItemEntry(Items.GOLD_INGOT, 5).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
-			new ItemEntry(Items.REDSTONE, 5).apply(version -> SetCountFunction.uniform(4.0F, 9.0F)),
+			new ItemEntry(Items.REDSTONE_DUST, 5).apply(version -> SetCountFunction.uniform(4.0F, 9.0F)),
 			new ItemEntry(Items.COAL, 10).apply(version -> SetCountFunction.uniform(3.0F, 8.0F)),
 			new ItemEntry(Items.BREAD, 15).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
 			new ItemEntry(Items.APPLE, 15).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
@@ -530,10 +534,10 @@ public class MCLootTables {
 	public static final Supplier<LootTable> VILLAGE_BUTCHER_CHEST = () -> new LootTable(
 		new LootPool(new UniformRoll(1.0F, 5.0F),
 			new ItemEntry(Items.EMERALD),
-			new ItemEntry(Items.PORKCHOP, 6).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
+			new ItemEntry(Items.RAW_PORKCHOP, 6).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
 			new ItemEntry(Items.WHEAT, 6).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
-			new ItemEntry(Items.BEEF, 6).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
-			new ItemEntry(Items.MUTTON, 6).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
+			new ItemEntry(Items.RAW_BEEF, 6).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
+			new ItemEntry(Items.RAW_MUTTON, 6).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
 			new ItemEntry(Items.COAL, 3).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)))
 	);
 
@@ -561,8 +565,8 @@ public class MCLootTables {
 	public static final Supplier<LootTable> VILLAGE_FISHER_CHEST = () -> new LootTable(
 		new LootPool(new UniformRoll(1.0F, 5.0F),
 			new ItemEntry(Items.EMERALD),
-			new ItemEntry(Items.COD, 2).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
-			new ItemEntry(Items.SALMON).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
+			new ItemEntry(Items.RAW_COD, 2).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
+			new ItemEntry(Items.RAW_SALMON).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
 			new ItemEntry(Items.WATER_BUCKET).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
 			new ItemEntry(Items.BARREL).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
 			new ItemEntry(Items.WHEAT_SEEDS, 3).apply(version -> SetCountFunction.uniform(1.0F, 3.0F)),
@@ -675,7 +679,7 @@ public class MCLootTables {
 
 	public static final Supplier<LootTable> VILLAGE_TEMPLE_CHEST = () -> new LootTable(
 		new LootPool(new UniformRoll(3.0F, 8.0F),
-			new ItemEntry(Items.REDSTONE, 2).apply(version -> SetCountFunction.uniform(1.0F, 4.0F)),
+			new ItemEntry(Items.REDSTONE_DUST, 2).apply(version -> SetCountFunction.uniform(1.0F, 4.0F)),
 			new ItemEntry(Items.BREAD, 7).apply(version -> SetCountFunction.uniform(1.0F, 4.0F)),
 			new ItemEntry(Items.ROTTEN_FLESH, 7).apply(version -> SetCountFunction.uniform(1.0F, 4.0F)),
 			new ItemEntry(Items.LAPIS_LAZULI).apply(version -> SetCountFunction.uniform(1.0F, 4.0F)),
@@ -734,7 +738,7 @@ public class MCLootTables {
 			new ItemEntry(Items.BREAD, 20),
 			new ItemEntry(Items.WHEAT, 20).apply(version -> SetCountFunction.uniform(1.0F, 4.0F)),
 			new ItemEntry(Items.BUCKET, 10),
-			new ItemEntry(Items.REDSTONE, 15).apply(version -> SetCountFunction.uniform(1.0F, 4.0F)),
+			new ItemEntry(Items.REDSTONE_DUST, 15).apply(version -> SetCountFunction.uniform(1.0F, 4.0F)),
 			new ItemEntry(Items.COAL, 15).apply(version -> SetCountFunction.uniform(1.0F, 4.0F)),
 			new ItemEntry(Items.MELON_SEEDS, 10).apply(version -> SetCountFunction.uniform(2.0F, 4.0F)),
 			new ItemEntry(Items.PUMPKIN_SEEDS, 10).apply(version -> SetCountFunction.uniform(2.0F, 4.0F)),
@@ -748,8 +752,8 @@ public class MCLootTables {
 
 	public static final Supplier<LootTable> FISHING_FISH = () -> new LootTable(
 		new LootPool(new ConstantRoll(1),
-			new ItemEntry(Items.COD, 60),
-			new ItemEntry(Items.SALMON, 25),
+			new ItemEntry(Items.RAW_COD, 60),
+			new ItemEntry(Items.RAW_SALMON, 25),
 			new ItemEntry(Items.TROPICAL_FISH, 2),
 			new ItemEntry(Items.PUFFERFISH, 13)
 		)
