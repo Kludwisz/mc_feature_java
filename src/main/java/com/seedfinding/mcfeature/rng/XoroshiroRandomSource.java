@@ -29,6 +29,16 @@ public class XoroshiroRandomSource implements RandomSource {
 	}
 
 	@Override
+	public float nextFloat() {
+		return (float)this.nextBits(24) * 5.9604645E-8F;
+	}
+
+	@Override
+	public double nextDouble() {
+		return (double)this.nextBits(53) * (double)1.110223E-16F;
+	}
+
+	@Override
 	public void skip(int states) {
 		for (int i = 0; i < states; i++)
 			this.nextLong();

@@ -1,7 +1,5 @@
 package com.seedfinding.mcfeature.rng;
 
-import java.util.Random;
-
 public class WorldgenRandom {
 	private final RandomSource source;
 
@@ -44,7 +42,6 @@ public class WorldgenRandom {
 		int bits, val;
 		final int m = bound - 1;
 
-		new Random().nextInt(3);
 		if ((bound & m) == 0) {
 			long x = bound * (long)source.nextBits(31);
 			return (int) (x >> 31);
@@ -64,17 +61,12 @@ public class WorldgenRandom {
 	}
 
 	public float nextFloat() {
-		return 0F;
-		// TODO
-		//return source.nextFloat();
+		return source.nextFloat();
 	}
 
 	public double nextDouble() {
-		return 0D;
-		// TODO
-		//return source.nextDouble();
+		return source.nextDouble();
 	}
-
 
 	// ---------------------------------------------------
 
