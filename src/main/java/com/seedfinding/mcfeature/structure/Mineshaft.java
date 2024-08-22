@@ -76,4 +76,5 @@ public class Mineshaft extends Structure<Mineshaft.Config, Feature.Data<?>> {
 		}
 	}
 
+	// TODO getDecorationSalt
 }

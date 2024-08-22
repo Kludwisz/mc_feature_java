@@ -37,4 +37,6 @@ public class AncientCity extends UniformStructure<AncientCity> {
 	public Dimension getValidDimension() {
 		return Dimension.OVERWORLD;
 	}
+
+	// TODO getDecorationSalt
 }

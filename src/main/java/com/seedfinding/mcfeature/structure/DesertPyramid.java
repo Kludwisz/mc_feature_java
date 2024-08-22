@@ -36,6 +36,7 @@ public class DesertPyramid extends OldStructure<DesertPyramid> implements ILoot 
 		return biome == Biomes.DESERT || biome == Biomes.DESERT_HILLS;
 	}
 
+	// TODO verify
 	@Override
 	public int getDecorationSalt() {
 		return this.getVersion().isNewerOrEqualTo(MCVersion.v1_16) ? 40003 : 30002;

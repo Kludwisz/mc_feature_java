@@ -49,4 +49,5 @@ public class BastionRemnant extends UniformStructure<BastionRemnant> {
 			|| biome == Biomes.CRIMSON_FOREST;
 	}
 
+	// TODO getDecorationSalt
 }

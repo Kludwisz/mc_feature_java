@@ -50,6 +50,8 @@ public class Stronghold extends Structure<Stronghold.Config, Stronghold.Data> {
 		VALID_BIOMES_15.addAll(VALID_BIOMES_16);
 	}
 
+	// TODO getDecorationSalt
+
 	public Stronghold(MCVersion version) {
 		this(CONFIGS.getAsOf(version), version);
 	}

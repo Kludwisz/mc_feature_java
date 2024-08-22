@@ -79,4 +79,5 @@ public class Fortress extends UniformStructure<Fortress> {
 			|| biome == Biomes.SOUL_SAND_VALLEY || biome == Biomes.WARPED_FOREST;
 	}
 
+	// TODO getDecorationSalt
 }

@@ -35,4 +35,5 @@ public class JunglePyramid extends OldStructure<JunglePyramid> {
 			|| biome == Biomes.BAMBOO_JUNGLE_HILLS;
 	}
 
+	// TODO getDecorationSalt
 }

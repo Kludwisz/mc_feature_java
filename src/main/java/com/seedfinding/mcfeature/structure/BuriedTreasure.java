@@ -59,6 +59,7 @@ public class BuriedTreasure extends RegionStructure<BuriedTreasure.Config, Regio
 		return new RegionStructure.Data<>(this, chunkX, chunkZ);
 	}
 
+	// TODO update to new version
 	@Override
 	public int getDecorationSalt() {
 		return this.getVersion().isOlderOrEqualTo(MCVersion.v1_13_2) ? 20002 : 30001;

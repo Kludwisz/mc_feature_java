@@ -60,6 +60,7 @@ public class RuinedPortal extends UniformStructure<RuinedPortal> implements ILoo
 		return ruinedPortalGenerator.generate(generator, chunkX, chunkZ);
 	}
 
+	// TODO this is incorrect for new versions
 	@Override
 	public int getDecorationSalt() {
 		return 40005;

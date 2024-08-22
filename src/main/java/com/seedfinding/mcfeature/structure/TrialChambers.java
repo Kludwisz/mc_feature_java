@@ -37,4 +37,6 @@ public class TrialChambers extends UniformStructure<TrialChambers> {
 	public Dimension getValidDimension() {
 		return Dimension.OVERWORLD;
 	}
+
+	// TODO getDecorationSalt
 }

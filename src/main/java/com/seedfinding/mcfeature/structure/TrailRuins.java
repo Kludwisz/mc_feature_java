@@ -37,4 +37,6 @@ public class TrailRuins extends UniformStructure<TrailRuins> {
 	public Dimension getValidDimension() {
 		return Dimension.OVERWORLD;
 	}
+
+	// TODO getDecorationSalt
 }
