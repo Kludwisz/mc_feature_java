@@ -15,22 +15,23 @@ public class WorldgenRandom {
 		this.source.setSeed(seed);
 	}
 
-	public void setPopulationSeed(long structureSeed, int chunkX, int chunkZ) {
-		this.setSeed(structureSeed);
-		long a = this.nextLong();
-		long b = this.nextLong();
-		this.setSeed(((long)chunkX << 4) * a + ((long)chunkZ << 4) * b ^ structureSeed);
+	public long getPopulationSeed(long worldSeed, int chunkX, int chunkZ) {
+		this.setSeed(worldSeed);
+		long a = this.nextLong() | 1L;
+		long b = this.nextLong() | 1L;
+		return ((long)chunkX << 4) * a + ((long)chunkZ << 4) * b ^ worldSeed;
 	}
 
-	public void setDecoratorSeed(long structureSeed, int chunkX, int chunkZ, int index, int step) {
-		this.setDecoratorSeed(structureSeed, chunkX, chunkZ, step * 10000 + index);
+	public void setPopulationSeed(long worldSeed, int chunkX, int chunkZ) {
+		this.setSeed(this.getPopulationSeed(worldSeed, chunkX, chunkZ));
 	}
 
-	public void setDecoratorSeed(long structureSeed, int chunkX, int chunkZ, int salt) {
-		this.setSeed(structureSeed);
-		long a = this.nextLong();
-		long b = this.nextLong();
-		long populationSeed = ((long)chunkX << 4) * a + ((long)chunkZ << 4) * b ^ structureSeed;
+	public void setDecoratorSeed(long worldSeed, int chunkX, int chunkZ, int index, int step) {
+		this.setDecoratorSeed(worldSeed, chunkX, chunkZ, step * 10000 + index);
+	}
+
+	public void setDecoratorSeed(long worldSeed, int chunkX, int chunkZ, int salt) {
+		long populationSeed = this.getPopulationSeed(worldSeed, chunkX, chunkZ);
 		this.setSeed(populationSeed + salt);
 	}
 
